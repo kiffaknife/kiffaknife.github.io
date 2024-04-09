@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>kiffaknife</title>
+<link type="image/x-icon" href="img/icon.png" rel="shortcut icon">
+<style>
+	html { color: white; margin: 0; }
+  table { background-color: black; }
+  .maskot { background-image: url("img/maskot.png"); background-size: cover; }
+  a { color: white; }
+  a:hover { color: rgb(108, 147, 255); }
+</style>
+</head>
+<body background="img/background.jpg">
+<table width="50%" border="1px" align="center">
+      <tr>
+        <td class="maskot" width="30%" height="45"></td>
+        <td colspan="2">
+        <center>
+          <h1><strong><a href="index.html">kiffaknife.space</a></strong></h1>
+          <h4>Time (UTC+5): <span id="time">10:00:00 / 08.04.2024</span></h4>
+        </center>
+      </td>
+      </tr>
+      <tr>
+        <td valign="top">
+        <p><a href="blog/index.html">blog</a></p>
+        <p><a href="cenbytii/index.html">cenbytii</a></p>
+        <p><a href="https://mastodon.ml/@kiffa">mastodon (ru)</a></p>
+        <p><a href="https://ovk.to/kiffa">openvk</a></p>
+        <p><a href="https://www.donationalerts.com/r/hopekiffa">donationalerts</a></p>
+        <hr>
+        <p><a href="mailto:hopekiffa@riseup.net">email</a></p>
+        <p><a href="https://t.me/grantsolara">telegram</a></p>
+        </td>
+        <td width="50%" valign="top">
+          <h2><center><strong>О СЕБЕ</strong></center></h2>
+          <h3>Основные сведения:</h3>
+          <p><strong>Кифа (он/его)</strong> (kiffaknife; aka. nekorich, grantsolara, cenbytii)
+            10.01.20XX
+            <br>
+            <strong>Увлечения:</strong> музыка, рисование, шитьё
+            <br>
+            <strong>Любимые исполнители и группы:</strong> King Gizzard and the Lizard Wizard, Boards of Canada, Aphex Twin, Death Grips, Radiohead, Гражданская Оборона
+          </p>
+          <h3>Описание:</h3>
+          <p>
+            Студент из маленького сибирского городка, интересующийся музыкой и творчеством в целом. Имеет под своим крылом несколько творческих проектов, мечтает сам записывать музыку.
+            <br>
+            Вполне спокойный и добрый человек, готовый выслушать человека в любую минуту. Немного нестабилен в психическом плане, но он за это извиняется. Трудоголик в душе, но энергии на дела остаётся очень мало.
+          </p>
+        </td>
+        <td width="15%" valign="top"><img src="img/gabby.png" width="100%" />
+        <center>
+          <a href="https://www.imood.com/users/grantsolara"><img src="https://moods.imood.com/display/uname-grantsolara/fg-FFFFFF/bg-000000/imood.gif" alt="The current mood of grantsolara at www.imood.com" border="0"></a>
+        </center>
+        </td>
+      </tr>
+      <tr>
+        <td valign="top">
+          <img src="img/3dot5mmfc-button.gif">
+          <img src="img/neo-fedi.gif">
+          <img src="img/stop.gif">
+          <img src="img/besteyes_ani.gif">
+          <img src="img/zk-88x31-1a.gif">
+          <img src="img/hipra.gif">
+        </td>
+        <td colspan="2">
+          <center>
+            <p><strong>kiffaknife</strong></p>
+            <p>2022-2024</p>
+          </center>
+        </td>
+      </tr>
+</table>
+<script>
+  function calcTime() {
+      d = new Date();
+      utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+      nd = new Date(utc + (3600000*5));
+      time.innerHTML = nd.toLocaleString()
+  }
+  calcTime();
+  setInterval(calcTime, 1000)
+</script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="image/x-icon" href="img/icon.png" rel="shortcut icon">
+<title>cenbytii</title>
+<style>
+	html { color: white; margin: 0; }
+  table { background-color: #4567E6; }
+  .maskot { background-image: url("../cenbytii/img/maskot.png"); background-size: cover; }
+  a { color: white; }
+  a:hover { color: rgb(12, 35, 100); }
+  u { color: rgb(207, 207, 207); }
+</style>
+</head>
+<body bgcolor="white">
+<table width="50%" border="1px" align="center">
+      <tr>
+        <td class="maskot" width="30%" height="45"></td>
+        <td colspan="2">
+        <center>
+          <h1><strong><a href="index.html">cenbytii</a></strong></h1>
+          <h4>Time (UTC+5): <span id="time">10:00:00 / 08.04.2024</span></h4>
+        </center>
+      </td>
+      </tr>
+      <tr>
+        <td colspan="2" width="50%" valign="top">
+          <center>
+            <h2><strong>Коммишены</strong></h2>
+          </center>
+          <h3>Цена и условия:</h3>
+          <p>От 500₽ за полноценный портрет в дидже. На другие услуги цена договорная. (пример: полноц. халф: ~700₽ и т.д.)</p>
+          <p><strong>Я рисую:</strong>
+          <br>
+          Люди, фурри, принимаются с мелкими деталями и отличной от моей стилизацией, если я с ней справляюсь.
+          <br>
+          <strong>Не рисую:</strong><br>
+          НСФВ (гуро, нагота, прон), оружие, насилие, механизмы.
+          </p>
+          <h3>Оплата: </h3>
+          <p>Принимаю оплату в <strong>российских рублях</strong> на Сбербанк, Тинькофф, Юмани (также принимается оплата через СБП и на Альфа Банк (последнее в редких случаях))
+          <br>
+          Принимать оплату в других валютах из других стран временно не могу
+          <br>
+          <strong>Прошу внимания: работаю ПО ПОЛНОЙ ПРЕДОПЛАТЕ.</strong>
+          <h3>Дедлайн: </h3>
+          <p>От 2х недель до месяца, обговаривается индивидуально. </p>
+          <h3>Cвязь: <a href="https://t.me/grantsolara">Telegram</a> / <a href="mailto:hopekiffa@riseup.net">email</a></h3>
+          <center><p><a href="../index.html">TO MAIN</a></p></center>
+        </td>
+        <td width="15%" valign="top"><img src="img/chel.png" width="100%" />
+          <center><p>Статус - <strong>ОТКРЫТО.</strong></p></center>
+          <center><p>Портфолио:
+            <br>
+            <a href="https://t.me/cenbytii">Telegram</a> / <a href="https://md.ilyamikcoder.com/@ruinedstarhaze">Mastodon</a></h3>
+          </p></center>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3"><center>
+          <p><strong>kiffaknife</strong></p>
+          <p>2022-2024</p>
+        </center></td>
+      </tr>
+</table>
+<script>
+  function calcTime() {
+      d = new Date();
+      utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+      nd = new Date(utc + (3600000*5));
+      time.innerHTML = nd.toLocaleString()
+  }
+  calcTime();
+  setInterval(calcTime, 1000)
+</script>
+</body>
+</html>
