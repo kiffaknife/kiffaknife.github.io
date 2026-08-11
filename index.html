@@ -1,96 +1,41 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>KIFFAKNIFE</title>
-<link type="image/x-icon" href="img/icon.png" rel="shortcut icon">
-<style>
-	html { color: white; margin: 0; }
-  table { background-color: black; }
-  .maskot { background-image: url("img/maskot.png"); background-size: cover; }
-  a { color: white; }
-  a:hover { color: rgb(108, 147, 255); }
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>KIFFAKNIFE</title>
+    <link type="image/x-icon" href="img/icon.png" rel="shortcut icon">
+ <style>
+   }
+   h1, p, ul {
+    display: inline;
+    text-align: center;
+   }
+  body {
+  background: white;
+  color: black;
+   } 
+   A {
+    color: #3299c4; 
+   }
+   A:visited {
+    color: #253675;
+   }
+   A:active {
+    color: #3299c4;
+}
+.aligncenter {
+    text-align: center;
+}
 </style>
-</head>
-<body background="img/background.jpg">
-<table width="50%" border="1px" align="center">
-      <tr>
-        <td class="maskot" width="30%" height="45"></td>
-        <td colspan="2">
-        <center>
-          <h1><strong><a href="index.html">KIFFAKNIFE</a></strong></h1>
-          <h4>Time (UTC+5): <span id="time">10:00:00 / 08.04.2024</span></h4>
-        </center>
-      </td>
-      </tr>
-      <tr>
-        <td valign="top">
-        <p><a href="blog/index.html">BLOG</a></p>
-        <p><a href="cenbytii/index.html">CENBYTII</a></p>
-		<p><a href="lyricks/index.html">MUSIC</a></p>	
-	<hr>
-        <p><a rel="me" href="https://mastodon.ml/@kiffa">mastodon (ru)</a></p>
-	<p><a href="https://t.me/kiffaknife">telegram (blog)</a></p>
-	<p><a href="links/index.html">другие ссылки</a></p>
-        <hr>
-        <p><a href="mailto:kiffa@myslivets.com">email</a></p>
-        <p><a href="https://t.me/grantsolara">telegram</a></p>
-        </td>
-        <td width="50%" valign="top">
-          <h2><center><strong>О СЕБЕ</strong></center></h2>
-          <h3>Основные сведения:</h3>
-          <p><strong>Кифа (он/его)</strong> (kiffaknife; aka. nekorich, grantsolara, cenbytii), 10.01.2007
-            <br>
-            <strong>Увлечения:</strong> музыка, рисование, шитьё
-            <br>
-            <strong>Любимые исполнители и группы:</strong> King Gizzard and the Lizard Wizard, Boards of Canada, Aphex Twin, Death Grips, Radiohead, Гражданская Оборона, Янка Дягилева, Земфира
-          </p>
-          <h3>Описание:</h3>
-          <p>
-            Студент из маленького сибирского городка, интересующийся музыкой и творчеством в целом. Имеет под своим крылом несколько творческих проектов, мечтает сам записывать музыку.
-            <br>
-            Вполне спокойный и добрый человек, готовый выслушать человека в любую минуту. Немного нестабилен в психическом плане, но он за это извиняется. Трудоголик в душе, но энергии на дела остаётся очень мало.
-          </p>
-		
-        </td>
-        <td width="15%" valign="top"><img src="img/gabby2.jpg" width="100%" />
-        <center>
-          <a href="https://www.imood.com/users/grantsolara"><img src="https://moods.imood.com/display/uname-grantsolara/fg-FFFFFF/bg-000000/imood.gif" alt="The current mood of grantsolara at www.imood.com" border="0"></a>
-        </center>
-        </td>
-      </tr>
-      <tr>
-        <td valign="top">
-          <a href="https://lisikpng.com/"><img src="img/websbn.png" width="88px" height="31px"></a>
-          <a href="https://nediorg.ru"><img src="https://nediorg.ru/88x31.png" title="nediorg" width="88px" height="31px"></a>
-	  	<a href="https://t.me/cuddles98realofficialhah"><img src="../img/cuddles.jpg" width="88px" height="31px"></a>
-          <a href="https://tricolor.ru"><img src="https://web.archive.org/web/20110210214817im_/http://tricolor.tv/img/bann/Trikolor_internet_banner_88x31_v03.gif" width="88px" height="31px"></a>
-	  <a href="https://ertorworld.com/"><img src="img/ertorik.jpg" width="88px" height="31px"></a>
-	  <a href="http://veselcraft.ru/"><img src="img/vc.gif" width="88px" height="31px"></a>
-        </td>
-        <td colspan="2">
-          <center>
-            <p><strong>kiffaknife</strong></p>
-            <p>2022-2026</p>
-          </center>
-        </td>
-      </tr>
-</table>
-<script>
-  function calcTime() {
-      d = new Date();
-      utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-      nd = new Date(utc + (3600000*5));
-      time.innerHTML = nd.toLocaleString()
-  }
-  calcTime();
-  setInterval(calcTime, 1000)
-</script>
-</body>
-</html>
-
-
-
-
-
-
+  </head>
+  <body>
+    <h1><strong>Всем привет, это Кифа.</strong></h1>
+     <p>
+Если вы видите это сообщение - не пугайтесь, просто мне надо сделать редизайн. <br>
+С вёрсткой последней версии дизайна возникла одна большая проблема, и она - в самом верстальщике. Это был некогда мой хороший знакомый, с которым я познакомился через общих друзей, но в один момент он начал надоедливо просить у меня нюдсы и в принципе настраивал наше общение на более пошлый формат. После этого я разорвал с ним все связи, но сайт оставил, лишь убрав упоминание этого человека из соответствующего поста в блоге. Потом он начал говорить лестные вещи в сторону меньшинств, в число которых вхожу я, и тут мне стало уже противно что-либо сохранять после него. Подробно об этой теме знают мои друзья, остальным я не хочу об этом рассказывать, и кто это был конкретно - тоже. <br>
+В связи с этим я снёс большую часть сайта. <strong>Часть сайта с контентом о Сентиби, а также сайты ТетраТВ и Аспидорас будут работать</strong>, но первый всё равно нужно будет обновить, т.к. это именно часть основного сайта. <br>
+Я ищу людей, которые могут мне помочь с вёрсткой нового сайта. Он больше является визиткой и блогом, так что ничего сложного в нём не должно быть. Стиль - web1.0, можем снова попробовать формат таблицы. Мне также нужна помощь с идеей дизайна нового сайта, т.к. с этим у меня есть некоторые сложности. На безвозмездной основе или с небольшой оплатой - решать вам. <br>
+Всем, кто готов мне помочь, прошу написать мне в <a href="https://t.me/grantsolara">Телеграм</a> или на почту: <a href="mailto:alexkiffa@hotmail.com">alexkiffa@hotmail.com</a>.<br>
+<em>have a nice life</em>
+</p>
+  </body>
