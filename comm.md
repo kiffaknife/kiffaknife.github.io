@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Коммишены
 status: ЗАКРЫТО
 permalink: /cenbytii/comm
 ---
