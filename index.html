@@ -1,41 +1,30 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>KIFFAKNIFE</title>
-    <link type="image/x-icon" href="img/icon.png" rel="shortcut icon">
- <style>
-   }
-   h1, p, ul {
-    display: inline;
-    text-align: center;
-   }
-  body {
-  background: white;
-  color: black;
-   } 
-   A {
-    color: #3299c4; 
-   }
-   A:visited {
-    color: #253675;
-   }
-   A:active {
-    color: #3299c4;
-}
-.aligncenter {
-    text-align: center;
-}
-</style>
-  </head>
-  <body>
-    <h1><strong>Всем привет, это Кифа.</strong></h1>
-     <p>
-Если вы видите это сообщение - не пугайтесь, просто мне надо сделать редизайн. <br>
-С вёрсткой последней версии дизайна возникла одна большая проблема, и она - в самом верстальщике. Это был некогда мой хороший знакомый, с которым я познакомился через общих друзей, но в один момент он начал надоедливо просить у меня нюдсы и в принципе настраивал наше общение на более пошлый формат. После этого я разорвал с ним все связи, но сайт оставил, лишь убрав упоминание этого человека из соответствующего поста в блоге. Потом он начал говорить лестные вещи в сторону меньшинств, в число которых вхожу я, и тут мне стало уже противно что-либо сохранять после него. Подробно об этой теме знают мои друзья, остальным я не хочу об этом рассказывать, и кто это был конкретно - тоже. <br>
-В связи с этим я снёс большую часть сайта. <strong>Часть сайта с контентом о Сентиби, а также сайты ТетраТВ и Аспидорас будут работать</strong>, но первый всё равно нужно будет обновить, т.к. это именно часть основного сайта. <br>
-Я ищу людей, которые могут мне помочь с вёрсткой нового сайта. Он больше является визиткой и блогом, так что ничего сложного в нём не должно быть. Стиль - web1.0, можем снова попробовать формат таблицы. Мне также нужна помощь с идеей дизайна нового сайта, т.к. с этим у меня есть некоторые сложности. На безвозмездной основе или с небольшой оплатой - решать вам. <br>
-Всем, кто готов мне помочь, прошу написать мне в <a href="https://t.me/grantsolara">Телеграм</a> или на почту: <a href="mailto:alexkiffa@hotmail.com">alexkiffa@hotmail.com</a>.<br>
-<em>have a nice life</em>
-</p>
-  </body>
+---
+layout: default
+---
+
+<div class="main">
+    <img src="/img/gabby2.jpg" style="float: left; padding: 5px;">
+    <p>
+        Hello i like bols
+    </p>
+    <p>
+        Hello i like bols
+    </p>
+    <p>
+        Hello i like bols
+    </p>
+    <p>
+        Hello i like bols
+    </p>
+
+    <p>
+        Hello i like bols
+    </p>
+</div>
+<hr>
+<div class="blinkies">
+    {% for blink in site.data.blinkies %}
+    <a href="{{ blink.url }}" class="blink" title="{{ blink.title }}"><img src="{{ blink.img }}"
+            width="88" height="31"></a>
+    {% endfor %}
+</div>
