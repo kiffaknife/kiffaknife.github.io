@@ -16,3 +16,5 @@ permalink: /cenbytii/
 ## Портфолио:
 
 - [Telegram](//t.me/cenbytii)
+- [Instagram](//instagram.com/cenbytii)
+- [Youtube](//www.youtube.com/@cenbytii)

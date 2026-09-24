@@ -6,7 +6,7 @@ layout: default
 
 # sevenroad
 
-![sevenroad](/img/sevenroad1.jpg){: width="200" height="200"}
+![sevenroad](/img/sevenroad_logo.png){: width="200" height="200"}
 
 Раздел сайта, посвящённый моей музыке и людям, состоящим в объединении sevenroad.
 

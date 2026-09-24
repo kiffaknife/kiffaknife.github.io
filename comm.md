@@ -3,9 +3,11 @@ layout: page
 status: ЗАКРЫТО
 permalink: /cenbytii/comm
 ---
+<div style="text-align: center;" markdown="1">
 
-Статус - {{ page.status }}
+## Статус - {{ page.status }}
 
+</div>
 ---
 
 ![](/img/commprice.png){: width="920" height="300"}
