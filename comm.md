@@ -11,7 +11,7 @@ header: False
 </div>
 ---
 
-<p style="text-align: center;">![](/img/commprice.png){: width="600" height="350"}</p>
+<div style="text-align: center;">![](/img/commprice.png){: width="600" height="350"}
 
 #### Я рисую:
 &ensp; Люди, фурри, НСФВ (_с доплатой_), мелкие детали на персонажах, разные вариации стиля (см. мои имеющиеся работы в портфолио)
