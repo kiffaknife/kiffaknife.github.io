@@ -9,7 +9,8 @@ layout: default
   </h1>
 
   <ul class="post-list">
-    {% for post in site.blog %}
+    {% assign posts_by_date = site.blog | sort: "date" | reverse %}
+    {% for post in posts_by_date %}
       <li class="post">
         <h2 class="post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
