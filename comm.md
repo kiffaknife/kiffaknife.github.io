@@ -2,6 +2,7 @@
 layout: page
 status: ЗАКРЫТО
 permalink: /cenbytii/comm
+header: False
 ---
 <div style="text-align: center;" markdown="1">
 
